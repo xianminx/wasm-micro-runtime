@@ -1,0 +1,11 @@
+[package]
+name = "wamr"
+version = "0.1.0"
+edition = "2021"
+description = "Rust bindings for WAMR"
+authors = ["Lucas"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "^0.60"
